@@ -5,8 +5,8 @@
 def b_search(lst, target):      #lst는 탐색할 데이터리스트, target은 찾을 값
     head = 0
     tail = len(lst)-1    
-#head와 tail은 탐색범위의 양끝의 index번호를 나타냄 
-# -> head와 tail의 이동(값의 변화)는 탐색범위의 변화
+    #head와 tail은 탐색범위의 양끝의 index번호를 나타냄 
+    # -> head와 tail의 이동(값의 변화)는 탐색범위의 변화
     
     #반복횟수를 예측하기 힘드므로 while
     while head <= tail: 
