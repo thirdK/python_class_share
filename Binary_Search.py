@@ -28,8 +28,17 @@ def b_search(lst, target):      #lst는 탐색할 데이터리스트, target은 
     return result   #탐색이 끝나도 값이 존재하지 않다면 여기서 result 반환하고 함수종료
 
 
+
 lst = [i for i in range(25,100)]
 print(f'{lst[0]}~{lst[-1]}까지의 데이터')
 target = int(input('찾을 정수를 입력 >> '))
 
 print(b_search(lst, target))
+
+# 예외처리시
+# try:
+#     target = int(input('찾을 정수를 입력 >> '))
+#     print(b_search(lst, target))
+# except ValueError as e:
+#     print(e)
+#     print('즐거운 오해')
